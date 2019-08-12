@@ -1,8 +1,0 @@
-[Unit]
-After=network.target
-
-[Service]
-ExecStart=/etc/ceph/auto-add-osd.sh
-
-[Install]
-WantedBy=default.target
